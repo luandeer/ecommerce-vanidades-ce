@@ -1,8 +1,13 @@
 
-export default function NamePage() {
+interface Props{
+  params:{id: string}
+}
+
+export default function NamePage({params}: Readonly<Props>) {
+  const {id} = params;
   return (
     <div>
-      <h1>categoria</h1>
+      <h1>{id}</h1>
     </div>
   );
 }
