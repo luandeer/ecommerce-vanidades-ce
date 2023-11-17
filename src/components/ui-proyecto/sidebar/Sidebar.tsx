@@ -49,11 +49,11 @@ export const Sidebar = () => {
                 />
 
                 <div className="relative mt-14">
-                    <IoSearchOutline size={30} className="absolute top-2 right-2" />
+                    <IoSearchOutline size={30} className="absolute top-1 right-3" />
                     <input
                         type="text"
                         placeholder="Buscar"
-                        className="w-full bg-gray-50 rounded pl-10 py-1 pr-10 border-b-2 text-xl border-gray-200 focus:outline-none focus:border-blue-500 "
+                        className="w-full bg-gray-50 rounded pl-5 py-1 pr-10 border-b-2 text-xl border-gray-200 focus:outline-none focus:border-blue-500 "
                     />
                 </div>
 

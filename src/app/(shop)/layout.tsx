@@ -1,4 +1,4 @@
-import { TopMenu, Sidebar } from "@/components";
+import { TopMenu, Sidebar, Footer } from "@/components";
 
 //lrc para crear layout (comando atajo)
 export default function ShopLayout({
@@ -13,6 +13,7 @@ export default function ShopLayout({
     <div className="px-0 sm:px-10">
     {children}
     </div>
+    <Footer/>
   </main>
   );
 }
