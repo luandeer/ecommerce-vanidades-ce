@@ -14,6 +14,7 @@ export * from './ui-proyecto/not-found/PageNotFound'
 export * from './ui-proyecto/title/Title'
 export * from './ui-proyecto/sidebar/Sidebar'
 export * from './ui-proyecto/footer/Footer'
+export * from './ui-proyecto/pagination/Pagination'
 
 
 
