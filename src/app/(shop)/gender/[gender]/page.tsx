@@ -16,7 +16,7 @@ interface Props {
 }
 
 
-export default async function NamePage({params, searchParams}: Readonly<Props>) {
+export default async function GenderByPage({params, searchParams}: Readonly<Props>) {
   const { gender } = params;
 
   const page = searchParams.page ? parseInt( searchParams.page ) : 1;
